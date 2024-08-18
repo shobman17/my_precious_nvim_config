@@ -10,7 +10,9 @@ require("core.plugin_config.bufferline")
 require("core.plugin_config.nvim-tree")
 require("core.plugin_config.treesitter")
 require("core.plugin_config.telescope")
+require("core.plugin_config.git")
 
 -- Change LSP configs here
 require("core.plugin_config.lsp_config")
+
 

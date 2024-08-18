@@ -46,6 +46,11 @@ return require('packer').startup(function(use)
      run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release' 
   }
 
+  -- run git commands 
+  use {
+  'dinhhuy258/git.nvim'
+  }
+
   -- Put this at the end after all plugins
   if packer_bootstrap then
     require('packer').sync()
