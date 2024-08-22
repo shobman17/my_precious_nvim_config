@@ -18,6 +18,7 @@ return require('packer').startup(function(use)
   use 'ellisonleao/gruvbox.nvim'
   use 'bluz71/vim-nightfly-colors'
   use 'shaunsingh/nord.nvim'
+  use "EdenEast/nightfox.nvim"
 
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'

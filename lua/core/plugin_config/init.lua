@@ -1,6 +1,6 @@
 -- Change Theme here
 -- require("core.plugin_config.gruvbox")
-require("core.plugin_config.nightfly")
+require("core.plugin_config.duskfox")
 
 -- Change version of lualine here
 -- require("core.plugin_config.lualine")
