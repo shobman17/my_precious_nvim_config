@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-  ensure_installed = {"lua_ls"}
+  ensure_installed = {"lua_ls", "hdl_checker", "pylsp"}
 })
 
 --[[ local on_attach = function(_, _)
@@ -14,3 +14,5 @@ require("mason-lspconfig").setup({
 end ]]-- 
 
 -- require("lspconfig").lua_ls.setup {}
+-- require("lspconfig").pylsp.setup {}
+-- require("lspconfig").hdl_checker.setup {}

@@ -48,9 +48,10 @@ return require('packer').startup(function(use)
   }
 
   -- run git commands 
-  use {
-  'dinhhuy258/git.nvim'
-  }
+  use 'dinhhuy258/git.nvim'
+
+  -- toggle terminal
+  use {"akinsho/toggleterm.nvim", tag = '*'}
 
   -- Put this at the end after all plugins
   if packer_bootstrap then
