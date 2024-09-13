@@ -74,10 +74,20 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["base16-nvim"] = {
+    loaded = true,
+    path = "/home/shob/.local/share/nvim/site/pack/packer/start/base16-nvim",
+    url = "https://github.com/RRethy/base16-nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/shob/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
+  },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/home/shob/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
   },
   ["git.nvim"] = {
     loaded = true,
@@ -144,15 +154,30 @@ _G.packer_plugins = {
     path = "/home/shob/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["tabby.nvim"] = {
+    loaded = true,
+    path = "/home/shob/.local/share/nvim/site/pack/packer/start/tabby.nvim",
+    url = "https://github.com/nanozuki/tabby.nvim"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/shob/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
     url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
+  ["telescope-themes"] = {
+    loaded = true,
+    path = "/home/shob/.local/share/nvim/site/pack/packer/start/telescope-themes",
+    url = "https://github.com/andrew-george/telescope-themes"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/shob/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["themer.lua"] = {
+    loaded = true,
+    path = "/home/shob/.local/share/nvim/site/pack/packer/start/themer.lua",
+    url = "https://github.com/themercorp/themer.lua"
   },
   ["toggleterm.nvim"] = {
     loaded = true,
@@ -163,6 +188,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/shob/.local/share/nvim/site/pack/packer/start/vim-nightfly-colors",
     url = "https://github.com/bluz71/vim-nightfly-colors"
+  },
+  ["wal-colors.nvim"] = {
+    loaded = true,
+    path = "/home/shob/.local/share/nvim/site/pack/packer/start/wal-colors.nvim",
+    url = "https://github.com/mbrea-c/wal-colors.nvim"
+  },
+  ["winbar.nvim"] = {
+    loaded = true,
+    path = "/home/shob/.local/share/nvim/site/pack/packer/start/winbar.nvim",
+    url = "https://github.com/ramilito/winbar.nvim"
   }
 }
 

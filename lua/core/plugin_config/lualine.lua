@@ -1,7 +1,7 @@
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'duskfox',
+    -- theme = 'mbc',
   },
   sections = {
     lualine_a = {
